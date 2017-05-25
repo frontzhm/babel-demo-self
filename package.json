@@ -1,0 +1,34 @@
+{
+  "name": "babel-demo-self",
+  "version": "1.0.0",
+  "description": "try do it by myself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "./node_modules/.bin/babel src -w -d build",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontzhm/babel-demo-self.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "frontzhm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontzhm/babel-demo-self/issues"
+  },
+  "homepage": "https://github.com/frontzhm/babel-demo-self#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  }
+}
